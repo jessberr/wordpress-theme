@@ -1787,6 +1787,21 @@ footer .social-media a{
 
 	/* Site Header
 	--------------------------------------------- */
+	/* Site Footer  */
+
+    .gallery img{
+		width:12.5%;
+		height: 150px;
+	  }
+
+	.three-sections{
+		flex-direction: row;
+	}
+
+	.section{
+		width:33.3%;
+	}
+
 	#site-subheading{
 		padding:45px 0 30px 0;
 
@@ -1811,26 +1826,11 @@ footer .social-media a{
 		  top:150px;
 		  width:40%;
 	  }
-	  .page-banner .white-overlay{
-		width:30%;
+	 
+	  .slideshow{
+		height:550px;
 	}
 
-	/* Site Footer  */
-
-    .gallery img{
-		width:12.5%;
-		height: 150px;
-	  }
-
-	.three-sections{
-		flex-direction: row;
-	}
-
-	.section{
-		width:33.3%;
-	}
-
-	/* Front Page*/
       .mission-statement{
 		  height:375px;
 		  padding:80px 60px 0 60px;
@@ -1853,7 +1853,9 @@ footer .social-media a{
 		margin-bottom:20px;
 	  }
 
-	 
+	  .page-banner .white-overlay{
+		  width:30%;
+	  }
 
 
 	}

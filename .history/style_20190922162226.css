@@ -1520,28 +1520,6 @@ footer {
 		padding-top:25px;
 	}
 
-	.page-banner{
-		background: url("https://images.unsplash.com/uploads/1412619540809486f481f/95ba7209?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80") no-repeat;
-		height:200px;
-		background-size:cover;
-	}
-  
-	.page-banner .white-overlay{
-		position:relative;
-		top:170px;
-		padding: 20px 0;
-		text-transform: uppercase;
-		width:40%;
-	}
-  
-	.page-banner .white-overlay h2{
-		font-size:16px;
-	}
-  
-	.page-banner .white-overlay #example-title{
-	  margin:0;
-  }
-
     /* Site Footer------- */
 
 footer .social-media a{
@@ -1598,33 +1576,29 @@ footer .social-media a{
 	display: none;
 }
 
+#form-inputs{
+	width:200px;
+	display: block;
+	margin:0 auto;
+	height: 40px;
+	text-align: center;
+}
+
+
 
 /*Main Page*/
 
-/* Base White Overlay & Example Title/Descriptions*/
-
-.white-overlay{
-	background-color:#fff;
-	margin: 0 auto;
-	width: 70%;
-	position: relative;
-	top:80px;
-	text-align: center;
-	padding:20px;
-	margin-bottom:30px;
+.slideshow{
+	background-image: url("http://www.jessberrett.com/wp-content/uploads/2019/08/IMG_8226-e1564866897782.jpg");
+	background-size: cover;
+	height:350px;
+	background-repeat: no-repeat;
 }
 
-#example-title{
-	font-weight:bold;
-	letter-spacing:3px;
-}
 
-#example-description{
-	font-size: .7em;	
-	font-weight:bolder;
+.slideshow button{
+	margin:0;
 }
-
-/*Pages Section */
 
 .pages{
 	display: flex;
@@ -1664,12 +1638,31 @@ footer .social-media a{
   background-size: cover;
 }
 
+.white-overlay{
+	background-color:#fff;
+	margin: 0 auto;
+	width: 70%;
+	position: relative;
+	top:80px;
+	text-align: center;
+	padding:20px;
+	margin-bottom:30px;
+}
+
 .pages #example-title{
   line-height: 3px;
   font-size:.7em;
 }
 
-/* Mission Statement Section*/
+#example-title{
+	font-weight:bold;
+	letter-spacing:3px;
+}
+
+#example-description{
+	font-size: .7em;	
+	font-weight:bolder;
+}
 
 .mission-statement{
 	background-color:#fff;
@@ -1688,8 +1681,6 @@ footer .social-media a{
 .mission-statement #example-description{
 	font-weight: 200;
 }
-
-/* Featured Projects Section with polariod styling */
 
 .polariod{
 	display: flex;
@@ -1740,6 +1731,28 @@ footer .social-media a{
 
   /* Interior Page */
 
+  .page-banner{
+	  background: url("https://images.unsplash.com/uploads/1412619540809486f481f/95ba7209?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80") no-repeat;
+	  height:200px;
+	  background-size:cover;
+  }
+
+  .page-banner .white-overlay{
+	  position:relative;
+	  top:170px;
+	  padding: 20px 0;
+	  text-transform: uppercase;
+	  width:40%;
+  }
+
+  .page-banner .white-overlay h2{
+	  font-size:16px;
+  }
+
+  .page-banner .white-overlay #example-title{
+	margin:0;
+}
+
   .interior-page_bg{
 	  background:#eee;
 	  margin:0;
@@ -1759,16 +1772,6 @@ footer .social-media a{
 	margin-bottom:20px;
 }
 
-#form-inputs{
-	width:200px;
-	display: block;
-	margin:0 auto;
-	height: 40px;
-	text-align: center;
-}
-
-
-
 
 /* Media Queries
 ---------------------------------------------------------------------------- */
@@ -1787,6 +1790,21 @@ footer .social-media a{
 
 	/* Site Header
 	--------------------------------------------- */
+	/* Site Footer  */
+
+    .gallery img{
+		width:12.5%;
+		height: 150px;
+	  }
+
+	.three-sections{
+		flex-direction: row;
+	}
+
+	.section{
+		width:33.3%;
+	}
+
 	#site-subheading{
 		padding:45px 0 30px 0;
 
@@ -1811,26 +1829,11 @@ footer .social-media a{
 		  top:150px;
 		  width:40%;
 	  }
-	  .page-banner .white-overlay{
-		width:30%;
+	 
+	  .slideshow{
+		height:550px;
 	}
 
-	/* Site Footer  */
-
-    .gallery img{
-		width:12.5%;
-		height: 150px;
-	  }
-
-	.three-sections{
-		flex-direction: row;
-	}
-
-	.section{
-		width:33.3%;
-	}
-
-	/* Front Page*/
       .mission-statement{
 		  height:375px;
 		  padding:80px 60px 0 60px;
@@ -1853,7 +1856,9 @@ footer .social-media a{
 		margin-bottom:20px;
 	  }
 
-	 
+	  .page-banner .white-overlay{
+		  width:30%;
+	  }
 
 
 	}
