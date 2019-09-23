@@ -1502,7 +1502,7 @@ footer {
 	
 	#logo{
 		margin-top:26px;
-		max-height:150px;
+		//max-height:80px;
 	}
 
 	#site-subname, #site-subheading{
@@ -1510,6 +1510,10 @@ footer {
 		font-size:12px;
 		letter-spacing: 1.5px;
 		font-weight: bold;
+	}
+	
+	#site-subname{
+		padding-top:15px;
 	}
 	
 	#site-subheading{
