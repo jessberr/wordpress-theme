@@ -252,7 +252,12 @@ blockquote:before{
 	
 }
 
-
+blockquote:after{
+	content: "\201d";
+	position:relative;
+	right:15%;
+	font-size:20px;
+}
 
 /* Headings
 --------------------------------------------- */

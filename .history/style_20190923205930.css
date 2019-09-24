@@ -247,12 +247,13 @@ blockquote {
 blockquote:before{
 	content: "\201C";
 	position:absolute;
-	left:13%;
-	font-size:20px;
+	left:50%;
 	
 }
 
-
+blockquote:after{
+	content: "\201d";
+}
 
 /* Headings
 --------------------------------------------- */
