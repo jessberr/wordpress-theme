@@ -235,7 +235,7 @@ mark {
 blockquote {
 	margin: 30px;
     color: #333;
-    padding: 15px;
+    padding: 20px;
     line-height: 2;
     font-weight: bold;
     letter-spacing: 2px;
@@ -1562,7 +1562,7 @@ footer .social-media a{
 
 
 .three-sections{
-	background: #96a896;
+	background: #e9f0f4;
 	display:flex;
 	flex-direction: column;
 	padding:20px;
@@ -1861,11 +1861,8 @@ footer .social-media a{
 		margin-bottom:20px;
 	  }
 
-	 /* Interior Page*/
-	
-	 blockquote{
-		 padding:15px 40px;
-	 }
+	 
+
 
 	}
 
