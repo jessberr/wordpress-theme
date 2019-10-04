@@ -27,14 +27,14 @@
 
 <!-- Gallery Section with eight pictures along the bottom -->
    <div class="gallery">
-      <img src="https://images.unsplash.com/photo-1446844805183-9f5af45f89ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" alt="trees in sunlight">
-      <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60" alt="wildflowers">
-      <img src="https://images.unsplash.com/photo-1464268677664-166ed687faa5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60" alt="cows grazing">
-      <img src="https://images.unsplash.com/photo-1508564649385-0e1765deb323?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60" alt="bird perched in fornt of grand canyon">
-      <img src="https://images.unsplash.com/photo-1510279931157-4ca63af8a363?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="latte being made">
-      <img src="https://images.unsplash.com/photo-1523043829291-4195e5c69656?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60" alt="girl reading a book in lap">
-      <img src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60" alt="looking up to sky through trees">
-      <img src="https://images.unsplash.com/photo-1449938555582-e05593b5af93?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="close up of dogs face">
+      <img src="http://www.jessberrett.com/wp-content/uploads/2019/09/IMG_8852.jpg" alt="porch with flowers and teapot">
+      <img src="http://www.jessberrett.com/wp-content/uploads/2019/09/IMG_9293desert9.jpg" alt="monument valley">
+      <img src="http://www.jessberrett.com/wp-content/uploads/2019/09/UNADJUSTEDNONRAW_thumb_550.jpg" alt="misty pine tree forest">
+      <img src="http://www.jessberrett.com/wp-content/uploads/2019/09/UNADJUSTEDNONRAW_thumb_5a1.jpg" alt="notebook on windowsill">
+      <img src="http://www.jessberrett.com/wp-content/uploads/2019/09/sunrise-flower.jpg" alt="flowers">
+      <img src="http://www.jessberrett.com/wp-content/uploads/2019/09/IMG_4276.jpg" alt="pine tree mountains in fog">
+      <img src="http://www.jessberrett.com/wp-content/uploads/2019/09/IMG_9340.jpg" alt="wheat field by utah lake">
+      <img src="http://www.jessberrett.com/wp-content/uploads/2019/09/VP1A6109.jpg" alt="flowering trees">
    </div>
 <!-- Copyright -->
    <div class="copyright">

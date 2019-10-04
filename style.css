@@ -1516,7 +1516,7 @@ footer {
 	}
 	
 	.site-branding{
-		padding:35px 0 0 0;
+		padding:35px 30px 0 ;
 		background: #fff;
 		margin-bottom:50px;
 	}
@@ -1538,7 +1538,7 @@ footer {
 	}
 
 	.page-banner{
-		background: url("https://images.unsplash.com/uploads/1412619540809486f481f/95ba7209?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80") no-repeat;
+		background: url("images/utah-lake.jpg") no-repeat;
 		height:200px;
 		background-size:cover;
 	}
@@ -1637,7 +1637,7 @@ footer .social-media a{
 }
 
 #example-description{
-	font-size: .7em;	
+	font-size: 1.2em;	
 	font-weight:bolder;
 }
 
@@ -1673,17 +1673,17 @@ footer .social-media a{
   background-size: cover; 
 }
 #pages-two{
-  background: url("https://images.unsplash.com/photo-1517646331032-9e8563c520a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60") no-repeat;
+  background: url("http://www.jessberrett.com/wp-content/uploads/2019/09/UNADJUSTEDNONRAW_thumb_57a.jpg") no-repeat;
   background-size: cover;
 }
 #pages-three{
-  background: url("https://images.unsplash.com/photo-1474139346426-aa184093f6d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60") no-repeat;
+  background: url("http://www.jessberrett.com/wp-content/uploads/2019/09/IMG_8923.jpg") no-repeat;
   background-size: cover;
 }
 
 .pages #example-title{
   line-height: 3px;
-  font-size:.7em;
+  font-size:.9em;
 }
 
 /* Mission Statement Section*/
