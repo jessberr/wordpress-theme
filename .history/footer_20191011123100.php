@@ -9,7 +9,7 @@
      </div>
      <div class="section" id="two">
        <h2 id="site-subheading">About</h2>
-       <p>Jess Berrett is a web developer in Tempe, AZ. Whether it's a small change or a complete make-over, she can help. Responsive design is priority in building clean and modern websites. When she's not building websites or learning more about coding, she enjoys mountain biking, running, and reading.  </p>
+       <p>Jess Berrett is a self-taught web developer in Tempe, AZ. Whether it's a small change or a complete make-over, she can help. Responsive design is priority in building clean and modern websites. When she's not building websites or learning more about coding, she enjoys mountain biking, running, and reading.  </p>
      </div>
      <div class="section" id="three">
         <h2 id="site-subheading">Get more information</h2>

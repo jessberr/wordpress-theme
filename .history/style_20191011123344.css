@@ -1737,13 +1737,13 @@ footer .social-media a{
 }
 
 #polariod-one{
-	background: url("images/books.jpeg") no-repeat; 
+	background: url("https://images.unsplash.com/photo-1470549638415-0a0755be0619?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") no-repeat; 
   }
 #polariod-two{
-	background: url("images/duckett-books.jpeg") no-repeat;
+	background: url("https://images.unsplash.com/photo-1472437774355-71ab6752b434?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") no-repeat;
   }
 #polariod-three{
-	background: url("images/typing-laptop.jpeg") no-repeat;
+	background: url("https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") no-repeat;
   }
 
   #polariod-one, #polariod-two, #polariod-three{
