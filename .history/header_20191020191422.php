@@ -3,7 +3,7 @@
 <head>
    <meta name="viewport" content= 
         "width=device-width, initial-scale=1.0"> 
-   <?php wp_head(); ?>
+  
 </head>
 <body>
 <!-- Header Navigation Menu with Social Media. Uses Responsive Menu Plugin-->   
@@ -21,7 +21,7 @@
      </div>
 <!-- Website logo and description--> 
      <div class="site-branding">
-        <a id="top" href="/"><img id="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png"></a>
+        <a id="top" href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png"></a>
         <h2 id="site-subname">Web Developer</h2>
      </div>
 <!-- Page banner with title of current page--> 

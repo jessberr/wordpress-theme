@@ -14,7 +14,7 @@
      <div class="section" id="three">
         <h2 id="site-subheading">Get more information</h2>
         <div>
-       <!-- Gravity Form Here-->
+
         </div>
         <div class="social-media">
           <a href="https://github.com/jessberr" target="_blank"><i class="fa fa-github"></i></a>

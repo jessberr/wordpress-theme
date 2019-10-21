@@ -29,8 +29,13 @@ function jb_enqueue_style() {
 add_action( 'wp_enqueue_scripts', 'jb_enqueue_style' );
 
 
+
+
 //* Add HTML5 markup structure
 add_theme_support( 'html5' );
 
 //* Add viewport meta tag for mobile browsers
 add_theme_support( 'genesis-responsive-viewport' );
+
+
+?>

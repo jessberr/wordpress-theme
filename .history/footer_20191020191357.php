@@ -14,7 +14,7 @@
      <div class="section" id="three">
         <h2 id="site-subheading">Get more information</h2>
         <div>
-       <!-- Gravity Form Here-->
+       <!-- //<?php gravity_form( 1, false, false, false, '', false ); ?> -->
         </div>
         <div class="social-media">
           <a href="https://github.com/jessberr" target="_blank"><i class="fa fa-github"></i></a>
@@ -25,7 +25,7 @@
      </div>
    </div>
 
-<!-- Gallery Section with eight pictures along the bottom 
+<!-- Gallery Section with eight pictures along the bottom -->
    <div class="gallery">
       <img src="http://www.jessberrett.com/wp-content/uploads/2019/09/IMG_8852.jpg" alt="porch with flowers and teapot">
       <img src="http://www.jessberrett.com/wp-content/uploads/2019/09/IMG_9293desert9.jpg" alt="monument valley">
@@ -35,7 +35,7 @@
       <img src="http://www.jessberrett.com/wp-content/uploads/2019/09/IMG_4276.jpg" alt="pine tree mountains in fog">
       <img src="http://www.jessberrett.com/wp-content/uploads/2019/09/IMG_9340.jpg" alt="wheat field by utah lake">
       <img src="http://www.jessberrett.com/wp-content/uploads/2019/09/VP1A6109.jpg" alt="flowering trees">
-   </div> -->
+   </div>
 <!-- Copyright -->
    <div class="copyright">
      <p>Copyright 2019 Jessica Berrett</p>
