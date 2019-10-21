@@ -4,7 +4,7 @@
    <div class="three-sections">
      <div class="section" id="one">
        <h2 id="site-subheading">Services</h2>
-       <a id="top" href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png"></a>
+       <a id="top" href="/"><img id="footer-logo" src="<?php echo get_template_directory_uri();?> /images/logo.png" alt="logo"></a>
        <p>Ready for a website change or customization? Upgrade your web presence to be more responsive and clean. Get your webpage a makeover or customized today with <a href="/contact">jessberrett.com</a>!  </p>
      </div>
      <div class="section" id="two">
@@ -14,7 +14,7 @@
      <div class="section" id="three">
         <h2 id="site-subheading">Get more information</h2>
         <div>
-       <!-- //<?php gravity_form( 1, false, false, false, '', false ); ?> -->
+          <?php gravity_form( 1, false, false, false, '', false ); ?>
         </div>
         <div class="social-media">
           <a href="https://github.com/jessberr" target="_blank"><i class="fa fa-github"></i></a>

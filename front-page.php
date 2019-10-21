@@ -28,7 +28,7 @@ function jb_home_page() {?>
     <section class="mission-statement">
          <h3 id="example-title">I'm passionate about simple, clean, and responsive websites.</h3>
          <h4 id="example-description">Ut dignissim diam urna, at tempus tortor vehicula hendrerit. Nam urna felis, ultrices non mi molestie, sollicitudin porttitor justo. Aenean faucibus mauris lorem, vel lobortis turpis scelerisque at. Nullam ac dapibus nisi. Donec placerat mattis justo a eleifend. Vestibulum ac lacus bibendum id, rhoncus lorem commodo, blandit nunc. Etiam sapien nibh, lobortis in sagittis elementum. Nulla lobortis ac dolor lobortis sodales. Nullam ac dapibus nisi. Donec placerat mattis justo a eleifend.</h4>
-         <a href="/about"><button>Read now</button></a>      
+         <a href="/contact"><button>Contact Me</button></a>      
     </section>
   
 <!-- Featured Projects Section with Polariod Style-->

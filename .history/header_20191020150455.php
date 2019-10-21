@@ -6,8 +6,8 @@
    <?php wp_head(); ?>
 </head>
 <body>
-   <header class="wrapper">
-     
+<!-- Header Navigation Menu with Social Media. Uses Responsive Menu Plugin-->   
+   <header class="wrapper">   
      <div class="navigation">
      <nav class="social-media">
         <a href="https://github.com/jessberr" target="_blank"><i class="fa fa-github"></i></a>
@@ -19,10 +19,17 @@
           <?php wp_nav_menu(); ?>
        </nav>
      </div>
+<!-- Website logo and description--> 
      <div class="site-branding">
-        <a id="top" href="/"><img id="logo" src="http://monstera.stnsvnthemes.com/wp-content/uploads/2016/03/logo-2.png" alt="logo"></a>
+        <a id="top" href="/"><img id="logo" src="/images/logo.png" alt="logo"></a>
         <h2 id="site-subname">Web Developer</h2>
      </div>
+<!-- Page banner with title of current page--> 
+     <div class="page-banner">
+       <div class="white-overlay">
+           <h2 id="example-title"><?php the_title(); ?></h2>
+       </div>
+    </div>
      
    </header>
  

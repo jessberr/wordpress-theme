@@ -21,7 +21,7 @@
      </div>
 <!-- Website logo and description--> 
      <div class="site-branding">
-        <a id="top" href="/"><img id="logo" src="http://www.jessberrett.com/wp-content/uploads/2019/09/logo.png" alt="logo"></a>
+        <a id="top" href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png"></a>
         <h2 id="site-subname">Web Developer</h2>
      </div>
 <!-- Page banner with title of current page--> 
