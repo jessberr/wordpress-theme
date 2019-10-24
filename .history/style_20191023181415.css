@@ -1818,9 +1818,6 @@ footer .social-media a{
 		table-layout: auto;
 		word-break: normal;
 	}
-	.large-section{
-		width:60%;
-	}
 
 }
 
@@ -1899,6 +1896,10 @@ footer .social-media a{
 	
 	 blockquote{
 		 padding:15px 40px;
+	 }
+
+	 .large-section{
+		 width:70%;
 	 }
 
 	}

@@ -1787,7 +1787,7 @@ footer .social-media a{
 	  flex-wrap: wrap;
 	  justify-content: space-evenly;
   }
-
+  
 
 
   /* Contact Forms */
@@ -1817,9 +1817,6 @@ footer .social-media a{
 	table {
 		table-layout: auto;
 		word-break: normal;
-	}
-	.large-section{
-		width:60%;
 	}
 
 }
