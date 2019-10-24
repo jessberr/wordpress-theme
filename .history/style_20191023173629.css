@@ -158,7 +158,7 @@ body {
 	background-color: #fff;
 	color: #333;
 	font-family: "Source Sans Pro", sans-serif;
-	font-size: 18px;
+	font-size: .88em;
 	font-weight: 400;
 	line-height: 1.625;
 	margin: 0;
@@ -193,7 +193,7 @@ a:active{
 }
 
 p {
-	margin: 0 0 30px;
+	margin: 0 0 10px;
 	padding: 0;
 }
 
@@ -220,7 +220,7 @@ strong {
 	font-weight: 700;
 }
 
-blockquote,
+
 cite,
 em,
 i {
@@ -234,7 +234,25 @@ mark {
 
 blockquote {
 	margin: 30px;
+    color: #333;
+    padding: 15px;
+    line-height: 2;
+    font-weight: bold;
+    letter-spacing: 2px;
+	text-align: center;
+	font-style: normal;
+    font-size:18px;
 }
+
+blockquote:before{
+	content: "\201C";
+	position:absolute;
+	left:13%;
+	font-size:20px;
+	
+}
+
+
 
 /* Headings
 --------------------------------------------- */
@@ -693,8 +711,11 @@ th:last-child {
 }
 
 .entry-title {
-	font-size: 30px;
-	margin-bottom: 10px;
+	font-size: 20px;
+    margin:30px 10px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 2px;
 }
 
 .entry-title a,
@@ -1452,6 +1473,10 @@ footer {
 	clear:both;
 }
 
+#wpadminbar{
+	display:inline-block !important;
+}
+
   /* Site Header and Footer
 	--------------------------------------------- */
 
@@ -1494,15 +1519,15 @@ footer {
 		width:100%;
 	}
 	
-	.site-branding{
-		padding:35px 0 0 0;
+	div.site-branding{
+		padding:35px 30px 0 ;
 		background: #fff;
 		margin-bottom:50px;
 	}
 	
 	#logo{
 		margin-top:26px;
-		//max-height:80px;
+		max-height:150px;
 	}
 
 	#site-subname, #site-subheading{
@@ -1512,16 +1537,12 @@ footer {
 		font-weight: bold;
 	}
 	
-	#site-subname{
-		padding-top:15px;
-	}
-	
 	#site-subheading{
 		padding-top:25px;
 	}
 
 	.page-banner{
-		background: url("https://images.unsplash.com/uploads/1412619540809486f481f/95ba7209?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80") no-repeat;
+		background: url("images/utah-lake.jpg") no-repeat;
 		height:200px;
 		background-size:cover;
 	}
@@ -1555,7 +1576,7 @@ footer .social-media a{
 
 
 .three-sections{
-	background: #e9f0f4;
+	background: #bfc9bf;
 	display:flex;
 	flex-direction: column;
 	padding:20px;
@@ -1598,6 +1619,10 @@ footer .social-media a{
 	display: none;
 }
 
+.gform_wrapper .top_label .gfield_label {
+	display:;
+}
+
 
 /*Main Page*/
 
@@ -1620,7 +1645,7 @@ footer .social-media a{
 }
 
 #example-description{
-	font-size: .7em;	
+	font-size: 1.2em;	
 	font-weight:bolder;
 }
 
@@ -1647,26 +1672,26 @@ footer .social-media a{
 }
 
 #pages-one, #pages-two, #pages-three{
-	margin:80px 40px 40px 40px;
+	margin:60px 40px 40px 40px;
 	height:265px;
   }
 
 #pages-one{
-  background: url("http://www.jessberrett.com/wp-content/uploads/2019/08/IMG_8485.jpg") no-repeat;
+  background: url("http://jessberrett.com/wp-content/uploads/2019/10/5B373405-73B2-4B84-B684-059BE0205E60.jpeg") no-repeat;
   background-size: cover; 
 }
 #pages-two{
-  background: url("https://images.unsplash.com/photo-1517646331032-9e8563c520a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60") no-repeat;
+  background: url("http://jessberrett.com/wp-content/uploads/2019/10/4FE6B85C-C713-4054-88D2-53533D35A909.jpeg") no-repeat;
   background-size: cover;
 }
 #pages-three{
-  background: url("https://images.unsplash.com/photo-1474139346426-aa184093f6d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60") no-repeat;
+  background: url("http://jessberrett.com/wp-content/uploads/2019/10/IMG_9340.jpg") no-repeat;
   background-size: cover;
 }
 
 .pages #example-title{
   line-height: 3px;
-  font-size:.7em;
+  font-size:.9em;
 }
 
 /* Mission Statement Section*/
@@ -1720,13 +1745,13 @@ footer .social-media a{
 }
 
 #polariod-one{
-	background: url("https://images.unsplash.com/photo-1470549638415-0a0755be0619?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") no-repeat; 
+	background: url("images/books.jpeg") no-repeat; 
   }
 #polariod-two{
-	background: url("https://images.unsplash.com/photo-1472437774355-71ab6752b434?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") no-repeat;
+	background: url("images/duckett-books.jpeg") no-repeat;
   }
 #polariod-three{
-	background: url("https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") no-repeat;
+	background: url("images/typing-laptop.jpeg") no-repeat;
   }
 
   #polariod-one, #polariod-two, #polariod-three{
@@ -1770,6 +1795,7 @@ footer .social-media a{
 
 
 
+
 /* Media Queries
 ---------------------------------------------------------------------------- */
 
@@ -1788,7 +1814,7 @@ footer .social-media a{
 	/* Site Header
 	--------------------------------------------- */
 	#site-subheading{
-		padding:45px 0 30px 0;
+		padding:45px 0 10px 0;
 
 	}
 
@@ -1833,7 +1859,7 @@ footer .social-media a{
 	/* Front Page*/
       .mission-statement{
 		  height:375px;
-		  padding:80px 60px 0 60px;
+		  padding:100px 60px 0 60px;
 	  }
 
 	  .polariod{
@@ -1853,8 +1879,11 @@ footer .social-media a{
 		margin-bottom:20px;
 	  }
 
-	 
-
+	 /* Interior Page*/
+	
+	 blockquote{
+		 padding:15px 40px;
+	 }
 
 	}
 
@@ -1982,7 +2011,7 @@ footer .social-media a{
 
 	.content {
 		float: left;
-		width: 65%;
+		width: 100%;
 		padding-left:50px;
 	}
 

@@ -1619,6 +1619,13 @@ footer .social-media a{
 	display: none;
 }
 
+.gform_wrapper .gfield_required{
+	display:none;
+}
+
+.gform_wrapper .gform_footer {
+	text-align:center;
+}
 
 /*Main Page*/
 
