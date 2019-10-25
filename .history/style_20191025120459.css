@@ -1905,7 +1905,7 @@ footer .social-media a{
 
 	}
 	#polariod-one, #polariod-two, #polariod-three{
-		width:300px;
+		width:350px;
 		height:300px;
 		margin-bottom:20px;
 	  }
@@ -1946,12 +1946,9 @@ footer .social-media a{
 		padding: 10px;
 	}
 
-	#polariod-one, #polariod-two, #polariod-three{
-		width:400px;
+	#polariod-one, #polariod-two, #polariod-three, #pages-one, #pages-two, #pages-three{
+		width:390px;
 	  }
-	#pages-one, #pages-two, #pages-three{
-		width:330px;
-	}
 
 
 
