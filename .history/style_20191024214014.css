@@ -1673,7 +1673,7 @@ footer .social-media a{
 
 .pages .white-overlay{
 	display:flex;
-	justify-content: center;
+	justify-content: center;;
 }
 
 #pages-one, #pages-two, #pages-three{
@@ -1796,7 +1796,6 @@ footer .social-media a{
 	  display:flex;
 	  flex-direction:row;
 	  flex-wrap:wrap;
-	  justify-content: space-around;
   }
 
   .majority-flex{
@@ -1860,7 +1859,7 @@ footer .social-media a{
 	}
 
 	  #pages-one, #pages-two, #pages-three{
-		width:190px;
+		width:30%;
 		height:80%;
 	  }
 
@@ -1868,7 +1867,9 @@ footer .social-media a{
 		  top:150px;
 		  width:40%;
 	  }
-	
+	  .page-banner .white-overlay{
+		width:30%;
+	}
 
 	/* Site Footer  */
 
@@ -1893,7 +1894,7 @@ footer .social-media a{
 
 	  .polariod{
 		flex-direction: row;
-		justify-content: space-around;
+		justify-content: space-evenly;
 		height:450px;
 	}
 	
@@ -1903,7 +1904,7 @@ footer .social-media a{
 
 	}
 	#polariod-one, #polariod-two, #polariod-three{
-		width:190px;
+		width:30%;
 		height:300px;
 		margin-bottom:20px;
 	  }
@@ -1943,10 +1944,6 @@ footer .social-media a{
 	.social-media a{
 		padding: 10px;
 	}
-
-	#polariod-one, #polariod-two, #polariod-three, #pages-one, #pages-two, #pages-three{
-		width:230px;
-	  }
 
 	/* Genesis Menu
 	--------------------------------------------- */
