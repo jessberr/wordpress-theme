@@ -12,29 +12,23 @@ function jb_home_page() {?>
     </div>   
 <!--Pages Section with white-overlay style-->
     <section class="pages">
-      <a href="/about">
-        <div id="pages-one">
-          <div class="white-overlay">
-            <h3 id="example-title">ABOUT</h3>
-          </div>
-         </div>
-      </a>
+      <div id="pages-one">
+        <div class="white-overlay">
+          <a href="/about"><h3 id="example-title">ABOUT</h3></a>
+        </div>
+      </div>
      
 
-      <a href="/portfolio">
-        <div id="pages-two">
-          <div class="white-overlay">
-            <h3 id="example-title">PORTFOLIO</h3>
-          </div>
-         </div>
-      </a>
-      <a href="/contact">
-        <div id="pages-three">
-          <div class="white-overlay">
-            <h3 id="example-title">CONTACT</h3>
-          </div>
-         </div>
-      </a>
+      <div id="pages-two">
+        <div class="white-overlay">
+          <a href="/portfolio"><h3 id="example-title">PORTFOLIO</h3></a>
+        </div>
+      </div>
+      <div id="pages-three">
+        <div class="white-overlay">
+          <a href="/contact"><h3 id="example-title">CONTACT</h3></a>
+        </div>
+      </div>
     </section>
 
 <!-- Mission Statement Section -->
@@ -48,27 +42,21 @@ function jb_home_page() {?>
     <section id="gray-background">
       <h3 id="example-title" >FEATURED PROJECTS</h3>
       <div  class="polariod">
-      <a href="/portfolio/theme">
         <div id="polariod-one">
           <div class="white-overlay">
-            <h3 id="example-description">WORDPRESS THEME</h3>
+            <a href="/portfolio/theme"><h3 id="example-description">WORDPRESS THEME</h3></a>
           </div>
         </div>
-      </a>
-      <a href="/portfolio/resume">
         <div id="polariod-two">
           <div class="white-overlay">
-            <h3 id="example-description">RESUME</h3>
+            <a href="/portfolio/resume"><h3 id="example-description">RESUME</h3></a>
           </div>
         </div>
-        </a>
-        <a href="/portfolio/timer">
         <div id="polariod-three">
           <div class="white-overlay">
-           <h3 id="example-description">POMODORO TIMER</h3>
+            <a href="/portfolio/timer"><h3 id="example-description">POMODORO TIMER</h3></a>
           </div>
         </div>
-        </a>
      </div>
     </section>
     

@@ -62,10 +62,10 @@ function jb_home_page() {?>
           </div>
         </div>
         </a>
-        <a href="/portfolio/timer">
+        <a href="/portfolio/timer"><
         <div id="polariod-three">
           <div class="white-overlay">
-           <h3 id="example-description">POMODORO TIMER</h3>
+           h3 id="example-description">POMODORO TIMER</h3>
           </div>
         </div>
         </a>

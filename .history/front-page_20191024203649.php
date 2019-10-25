@@ -55,20 +55,16 @@ function jb_home_page() {?>
           </div>
         </div>
       </a>
-      <a href="/portfolio/resume">
         <div id="polariod-two">
           <div class="white-overlay">
-            <h3 id="example-description">RESUME</h3>
+            <a href="/portfolio/resume"><h3 id="example-description">RESUME</h3></a>
           </div>
         </div>
-        </a>
-        <a href="/portfolio/timer">
         <div id="polariod-three">
           <div class="white-overlay">
-           <h3 id="example-description">POMODORO TIMER</h3>
+            <a href="/portfolio/timer"><h3 id="example-description">POMODORO TIMER</h3></a>
           </div>
         </div>
-        </a>
      </div>
     </section>
     

@@ -48,27 +48,21 @@ function jb_home_page() {?>
     <section id="gray-background">
       <h3 id="example-title" >FEATURED PROJECTS</h3>
       <div  class="polariod">
-      <a href="/portfolio/theme">
         <div id="polariod-one">
           <div class="white-overlay">
-            <h3 id="example-description">WORDPRESS THEME</h3>
+            <a href="/portfolio/theme"><h3 id="example-description">WORDPRESS THEME</h3></a>
           </div>
         </div>
-      </a>
-      <a href="/portfolio/resume">
         <div id="polariod-two">
           <div class="white-overlay">
-            <h3 id="example-description">RESUME</h3>
+            <a href="/portfolio/resume"><h3 id="example-description">RESUME</h3></a>
           </div>
         </div>
-        </a>
-        <a href="/portfolio/timer">
         <div id="polariod-three">
           <div class="white-overlay">
-           <h3 id="example-description">POMODORO TIMER</h3>
+            <a href="/portfolio/timer"><h3 id="example-description">POMODORO TIMER</h3></a>
           </div>
         </div>
-        </a>
      </div>
     </section>
     
