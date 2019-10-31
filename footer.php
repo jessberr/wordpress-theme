@@ -12,7 +12,7 @@
        <p>Jess Berrett is a web developer in Tempe, AZ. Whether it's a small change or a complete make-over, she can help. Responsive design is priority in building clean and modern websites. When she's not building websites or learning more about coding, she enjoys mountain biking, running, and reading.  </p>
      </div>
      <div class="section" id="three">
-        <h2 id="site-subheading">Get more information</h2>
+        <h2 id="site-subheading">Catch me outside</h2>
         <div>
        <?php gravity_form( 2, false, false, false, '', false ); ?>
         </div>
