@@ -1473,6 +1473,10 @@ footer {
 	clear:both;
 }
 
+#wpadminbar{
+	display:inline-block !important;
+}
+
   /* Site Header and Footer
 	--------------------------------------------- */
 
@@ -1515,10 +1519,10 @@ footer {
 		width:100%;
 	}
 	
-	.site-branding{
-		padding:35px 0 0 0;
+	div.site-branding{
+		padding:35px 30px 0 ;
 		background: #fff;
-		margin-bottom:50px;
+		margin-bottom:30px;
 	}
 	
 	#logo{
@@ -1615,6 +1619,15 @@ footer .social-media a{
 	display: none;
 }
 
+/* Gravity Forms*/
+
+.gform_wrapper .gfield_required{
+	display:none;
+}
+
+.gform_wrapper .gform_footer {
+	text-align:center;
+}
 
 /*Main Page*/
 
@@ -1660,30 +1673,34 @@ footer .social-media a{
 
 .pages .white-overlay{
 	display:flex;
-	justify-content: center;;
+	justify-content: center;
 }
 
 #pages-one, #pages-two, #pages-three{
-	margin:80px 40px 40px 40px;
+	margin:60px 40px 40px 40px;
 	height:265px;
   }
 
+#pages-one:hover, #pages-two:hover, #pages-three:hover, #polariod-one:hover, #polariod-two:hover, #polariod-three:hover {
+	opacity:.8;
+}
+
 #pages-one{
-  background: url("http://www.jessberrett.com/wp-content/uploads/2019/08/IMG_8485.jpg") no-repeat;
+  background: url("http://jessberrett.com/wp-content/uploads/2019/10/5B373405-73B2-4B84-B684-059BE0205E60.jpeg") no-repeat;
   background-size: cover; 
 }
 #pages-two{
-  background: url("http://www.jessberrett.com/wp-content/uploads/2019/09/mugbookshelf.jpg") no-repeat bottom;
+  background: url("http://jessberrett.com/wp-content/uploads/2019/10/4FE6B85C-C713-4054-88D2-53533D35A909.jpeg") no-repeat;
   background-size: cover;
 }
 #pages-three{
-  background: url("http://www.jessberrett.com/wp-content/uploads/2019/09/IMG_8923.jpg") no-repeat;
+  background: url("http://jessberrett.com/wp-content/uploads/2019/10/IMG_9340.jpg") no-repeat;
   background-size: cover;
 }
 
 .pages #example-title{
   line-height: 3px;
-  font-size:1.2em;
+  font-size:.9em;
 }
 
 /* Mission Statement Section*/
@@ -1691,7 +1708,7 @@ footer .social-media a{
 .mission-statement{
 	background-color:#fff;
 	margin:20px;
-	padding:70px 35px 0 35px;
+	padding:50px 35px 0 35px;
 	position: relative;
 	text-align: center;
 	margin-bottom:30px;
@@ -1737,17 +1754,18 @@ footer .social-media a{
 }
 
 #polariod-one{
-	background: url("https://images.unsplash.com/photo-1470549638415-0a0755be0619?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") no-repeat; 
+	background: url("http://jessberrett.com/wp-content/uploads/2019/10/Screen-Shot-2019-10-23-at-9.00.51-PM.png") no-repeat; 
   }
 #polariod-two{
-	background: url("https://images.unsplash.com/photo-1472437774355-71ab6752b434?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") no-repeat;
+	background: url("http://jessberrett.com/wp-content/uploads/2019/10/Screen-Shot-2019-10-25-at-11.50.37-AM.png") no-repeat;
   }
 #polariod-three{
-	background: url("https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") no-repeat;
+	background: url("images/typing-laptop.jpeg") no-repeat;
   }
 
   #polariod-one, #polariod-two, #polariod-three{
-	background-size: cover;
+	background-size: contain;
+	background-position: center;
 	height: 265px;
 	margin-bottom:100px;
 	margin-top: 20px;
@@ -1760,13 +1778,32 @@ footer .social-media a{
   .interior-page_bg{
 	  background:#eee;
 	  margin:0;
-	  padding: 10% 5%;
+	  padding:5%;
   }
 
   .interior-page-container{
 	  padding:30px;
 	  background: #fff;
   }
+
+  .two-column{
+	  display:flex;
+	  flex-direction:row;
+	  flex-wrap: wrap;
+	  justify-content: space-evenly;
+  }
+
+  .portfolio-flex{
+	  display:flex;
+	  flex-direction:row;
+	  flex-wrap:wrap;
+	  justify-content: space-around;
+  }
+
+  .majority-flex{
+	  width: 60%;
+  }
+
 
 
   /* Contact Forms */
@@ -1797,6 +1834,9 @@ footer .social-media a{
 		table-layout: auto;
 		word-break: normal;
 	}
+	.large-section{
+		width:60%;
+	}
 
 }
 
@@ -1806,7 +1846,7 @@ footer .social-media a{
 	/* Site Header
 	--------------------------------------------- */
 	#site-subheading{
-		padding:45px 0 30px 0;
+		padding:45px 0 10px 0;
 
 	}
 
@@ -1821,7 +1861,7 @@ footer .social-media a{
 	}
 
 	  #pages-one, #pages-two, #pages-three{
-		width:30%;
+		width:190px;
 		height:80%;
 	  }
 
@@ -1830,8 +1870,8 @@ footer .social-media a{
 		  width:40%;
 	  }
 	  .page-banner .white-overlay{
-		width:30%;
-	}
+		  width:20%;
+	  }
 
 	/* Site Footer  */
 
@@ -1850,13 +1890,13 @@ footer .social-media a{
 
 	/* Front Page*/
       .mission-statement{
-		  height:375px;
-		  padding:80px 60px 0 60px;
+		  height:275px;
+		  padding:100px 60px 0 60px;
 	  }
 
 	  .polariod{
 		flex-direction: row;
-		justify-content: space-evenly;
+		justify-content: space-around;
 		height:450px;
 	}
 	
@@ -1866,7 +1906,7 @@ footer .social-media a{
 
 	}
 	#polariod-one, #polariod-two, #polariod-three{
-		width:30%;
+		width:300px;
 		height:300px;
 		margin-bottom:20px;
 	  }
@@ -1906,6 +1946,15 @@ footer .social-media a{
 	.social-media a{
 		padding: 10px;
 	}
+
+	#polariod-one, #polariod-two, #polariod-three{
+		width:400px;
+	  }
+	#pages-one, #pages-two, #pages-three{
+		width:330px;
+	}
+
+
 
 	/* Genesis Menu
 	--------------------------------------------- */
@@ -2003,7 +2052,7 @@ footer .social-media a{
 
 	.content {
 		float: left;
-		width: 65%;
+		width: 100%;
 		padding-left:50px;
 	}
 

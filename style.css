@@ -1754,17 +1754,18 @@ footer .social-media a{
 }
 
 #polariod-one{
-	background: url("images/books.jpeg") no-repeat; 
+	background: url("http://jessberrett.com/wp-content/uploads/2019/10/Screen-Shot-2019-10-23-at-9.00.51-PM.png") no-repeat; 
   }
 #polariod-two{
-	background: url("images/duckett-books.jpeg") no-repeat;
+	background: url("http://jessberrett.com/wp-content/uploads/2019/10/Screen-Shot-2019-10-25-at-11.50.37-AM.png") no-repeat;
   }
 #polariod-three{
 	background: url("images/typing-laptop.jpeg") no-repeat;
   }
 
   #polariod-one, #polariod-two, #polariod-three{
-	background-size: cover;
+	background-size: contain;
+	background-position: center;
 	height: 265px;
 	margin-bottom:100px;
 	margin-top: 20px;
