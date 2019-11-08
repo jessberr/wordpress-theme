@@ -19,7 +19,7 @@
           <a href="https://www.linkedin.com/in/jessica-berrett/" target="_blank"><i class="fa fa-linkedin"></i></a>
           <a href="https://www.instagram.com/jesserberr/" target="_blank"><i class="fa fa-instagram"></i></a>
           <a href="https://www.pinterest.com/jberrett2/" target="_blank"><i class="fa fa-pinterest-p"></i></a>
-          <a href="https://sethicatravel.wordpress.com" target="_blank"><i class="fa fa-wordpress"></i></a>
+          <a href="https://sethicatravel.wordpress.com" target="_blank"><i class="fab fa-wordpress"></i></a>
 
         </div>     
      </div>
