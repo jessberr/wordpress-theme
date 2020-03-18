@@ -55,14 +55,14 @@ function jb_home_page() {?>
           </div>
         </div>
       </a>
-      <!-- <a href="/portfolio/responsive-fcc">
+      <a href="/portfolio/responsive-fcc">
         <div id="polariod-two">
           <div class="white-overlay">
             <h3 id="example-description">FCC RESPONSIVE DESIGN</h3>
           </div>
         </div>
-      </a> -->
-        <a href="/portfolio/marion-dentistry-idw">
+      </a>
+        <a href="/portfolio/">
         <div id="polariod-three">
           <div class="white-overlay">
             <h3 id="example-description">MARION DENTISTRY</h3>

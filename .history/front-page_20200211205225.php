@@ -62,7 +62,7 @@ function jb_home_page() {?>
           </div>
         </div>
       </a> -->
-        <a href="/portfolio/marion-dentistry-idw">
+        <a href="/portfolio/marion-dentistry">
         <div id="polariod-three">
           <div class="white-overlay">
             <h3 id="example-description">MARION DENTISTRY</h3>

@@ -38,7 +38,7 @@
    </div> -->
 <!-- Copyright -->
    <div class="copyright">
-     <p>Copyright 2020 Jess Berrett</p>
+     <p>Copyright 2020 Jessica Berrett</p>
    </div>
 </footer>
 
