@@ -15,7 +15,7 @@ function jb_home_page() {?>
       <a href="/about">
         <div id="pages-one">
           <div class="white-overlay">
-            <h3 id="example-title">ABOUT</h3>
+            <h3 id="example-title">Portfolio</h3>
           </div>
          </div>
       </a>
@@ -24,14 +24,14 @@ function jb_home_page() {?>
       <a href="/portfolio">
         <div id="pages-two">
           <div class="white-overlay">
-            <h3 id="example-title">PORTFOLIO</h3>
+            <h3 id="example-title">About</h3>
           </div>
          </div>
       </a>
       <a href="/contact">
         <div id="pages-three">
           <div class="white-overlay">
-            <h3 id="example-title">CONTACT</h3>
+            <h3 id="example-title">Blog</h3>
           </div>
          </div>
       </a>
@@ -46,31 +46,7 @@ function jb_home_page() {?>
   
 <!-- Featured Projects Section with Polariod Style-->
     <section id="gray-background">
-      <h3 id="example-title" >FEATURED PROJECTS</h3>
-      <div  class="polariod">
-      <a href="/portfolio/theme">
-        <div id="polariod-one">
-          <div class="white-overlay">
-            <h3 id="example-description">WORDPRESS THEME</h3>
-          </div>
-        </div>
-      </a>
-      <a href="/portfolio/responsive-fcc">
-        <div id="polariod-two">
-          <div class="white-overlay">
-            <h3 id="example-description">FCC RESPONSIVE DESIGN</h3>
-          </div>
-        </div>
-      </a>
-        <a href="/portfolio/">
-        <div id="polariod-three">
-          <div class="white-overlay">
-            <h3 id="example-description">MARION DENTISTRY</h3>
-          </div>
-        </div>
-        </a>
-       
-     </div>
+     
     </section>
     
 

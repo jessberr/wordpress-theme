@@ -1,5 +1,6 @@
 <!-- Footer -->
 <footer class="wrapper footer">
+<!-- 3 section Footer Area with Description, About, and Small Contact form-->
    <div>
      <div class="section">
        <h2 id="site-subheading">Services</h2>

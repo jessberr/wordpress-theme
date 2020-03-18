@@ -1,13 +1,13 @@
 <?php
 /**
- * Genesis Sample.
+ * Multi Functional Portfolio.
  *
- * This file adds functions to the Genesis Sample Theme.
+ * This file adds functions to the Multi Functional Portfolio Theme.
  *
- * @package Genesis Sample
- * @author  StudioPress
+ * @package Multi Functional Portfolio
+ * @author  Jess Berrett
  * @license GPL-2.0-or-later
- * @link    https://www.studiopress.com/
+ * @link    https://www.jessberrett.com/
  */
 
 // Starts the engine.
